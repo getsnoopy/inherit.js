@@ -48,7 +48,7 @@
         };
     }
 
-    var inherit = function ( child, parent ) {
+    function inherit( child, parent ) {
 
         if( !isFunction( child ) || !isFunction( parent ) ) {
             return;
