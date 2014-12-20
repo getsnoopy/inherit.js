@@ -13,7 +13,7 @@ inherit( childConstructor, parentConstructor )
 
 ```javascript
 function Grandfather() {}
-Gradfather.prototype.getName = function () { return 'John Doe I'; };
+Grandfather.prototype.getName = function () { return 'John Doe I'; };
 function Father() {}
 Father.prototype.getName = function () { return 'John Doe II'; };
 

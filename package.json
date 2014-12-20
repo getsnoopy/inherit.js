@@ -1,0 +1,23 @@
+{
+  "name": "inherit.js",
+  "version": "0.1.0",
+  "description": "An easy way to properly use prototype chaining.",
+  "homepage": "http://github.com/getsnoopy/inherit.js",
+  "license": {
+    "type": "MIT",
+    "url": "http://github.com/getsnoopy/inherit.js/blob/master/LICENSE.md"
+  },
+  "author": {
+    "name": "Varun Varada",
+    "url": "http://www.escisx.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/getsnoopy/inherit.js.git"
+  },
+  "bugs": "https://github.com/getsnoopy/inherit.js/issues",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "^0.6.0"
+  }
+}

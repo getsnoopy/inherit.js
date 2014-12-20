@@ -1,6 +1,8 @@
 /**
  * inherit.js
- * Varun Varada
+ * @license inherit.js Copyright (c) 2014 Varun Varada. All Rights Reserved.
+ * Available via the MIT license.
+ * see: http://github.com/getsnoopy/inherit.js for details
  */
 
 (function ( global ) {
