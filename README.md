@@ -27,6 +27,6 @@ inherit( Child, Father );
 
 ## Compatibility
 
-ECMAScript 1st Edition and above. The script uses a polyfill for providing `Object.create` in older browsers.
+ECMAScript 3rd Edition and above. The script uses a polyfill for providing `Object.create` in older browsers.
 
 *Note: Since property descriptors cannot be set in versions before ECMAScript 5, the `constructor` property will be enumerable after a child has been extended.*
