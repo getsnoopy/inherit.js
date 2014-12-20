@@ -17,7 +17,7 @@
     // Polyfill for browsers with ECMAScript <5
     if( !isFunction( Object.create ) ) {
         Object.create = function( prototype, properties ) {
-            if( typeof prototype !== 'object' && typeof prototype !== 'function' ) {
+            if( !isObject( prototype ) && !isFunction( prototype ) ) {
                 throw TypeError( 'Prototype must be an object!' )
             }
 
