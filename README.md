@@ -11,6 +11,8 @@ inherit( childConstructor, parentConstructor )
 
 ## Example
 
+##### Code
+
 ```javascript
 function Grandfather() {}
 Grandfather.prototype.getName = function () { return 'John Doe I'; };
@@ -23,7 +25,12 @@ function Child() {}
 Child.prototype.getName = function () { return 'John Doe III'; };
 
 inherit( Child, Father );
+
+var john_iii = new Child();
 ```
+##### Demo
+
+![ScreenShot](http://i.imgur.com/9Uva4ZJ.png)
 
 ## Compatibility
 
