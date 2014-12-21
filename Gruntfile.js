@@ -11,11 +11,22 @@ module.exports = function( grunt ) {
                 src: 'src/inherit.js',
                 dest: 'dist/inherit.min.js'
             },
-        }
+        },
+
+        watch: {
+		    scripts: {
+		        files: ['src/*.js'],
+		        tasks: ['uglify'],
+		        options: {
+		            spawn: false,
+		        },
+		    }
+		}
 
     });
 
     grunt.loadNpmTasks( 'grunt-contrib-uglify' );
+    grunt.loadNpmTasks( 'grunt-contrib-watch' );
     grunt.registerTask( 'default', ['uglify'] );
 
 };
